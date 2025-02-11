@@ -3,13 +3,13 @@ require("dotenv").config();
 
 module.exports = {
     prefix: process.env.PREFIX || ".",
-    ownerName: process.env.OWNER_NAME || "Toxxic-Boy",
-    ownerNumber: process.env.OWNER_NUMBER || "2348165846414",
+    ownerName: process.env.OWNER_NAME || "chanda",
+    ownerNumber: process.env.OWNER_NUMBER || "27781673022",
     mode: process.env.MODE || "public",
-    region: process.env.REGION || "Nigeria",
-    botName: process.env.BOT_NAME || "Rias Gremory V3",
+    region: process.env.REGION || "South Africa",
+    botName: process.env.BOT_NAME || "chandah",
     exifPack: process.env.EXIF_PACK || "RIAS V3 LOVES",
-    exifAuthor: process.env.EXIF_AUTHOR || "Toxxic",
+    exifAuthor: process.env.EXIF_AUTHOR || "chanda",
     timeZone: process.env.TIME_ZONE || "Africa/Lagos",
     presenceStatus: process.env.PRESENCE_STATUS || "unavailable",
     autoRead: process.env.AUTO_READ === "true",
